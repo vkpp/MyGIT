@@ -1,0 +1,32 @@
+
+
+GITHUB Installation:
+sudo apt-get install git
+git config --global user.name "user_name"
+git config --global user.email "email_id"
+git init MyGIT
+gedit readme
+git add
+git commit
+
+
+**connect to GIT
+git remote add origin https://github.com/user_name/Mytest.git
+
+
+
+
+
+
+
+
+
+******************************************
+Install mac OS
+
+VBoxManage modifyvm "MacOSSierra" --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
+VBoxManage setextradata "MacOSSierra" "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "iMac11,3"
+VBoxManage setextradata "MacOSSierra" "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
+VBoxManage setextradata "MacOSSierra" "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Iloveapple"
+VBoxManage setextradata "MacOSSierra" "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
+VBoxManage setextradata "MacOSSierra" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 1
